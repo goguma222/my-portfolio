@@ -35,8 +35,8 @@ export const headerNav = [
 ];
 
 export const introText = {
-    title: "port developer",
-    desc: ["talent is", "found at the end of the", "effort"],
+    title: "Web developer",
+    desc: ["Please come and see my portfolio.", "fMy name is Lee Jang-hee."],
     img: about
 }
 
