@@ -1,3 +1,5 @@
+import "@/assets/scss/style.scss"
+
 export const metadata = {
   title: "이장희 포트폴리오",
   description: "next.js를 프레임워크를 통해 제작한 포트폴리오",
