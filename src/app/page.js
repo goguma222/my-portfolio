@@ -9,12 +9,16 @@ import Site from "@/component/Site";
 import Port from "@/component/Prot";
 import Contact from "@/component/Contact";
 import Footer from "@/component/Footer";
+import Smooth from "@/utils/smooth";
+import link from "@/utils/link";
+
 
 export default function Home(){
-    // useEffect(() => {
-    //     smooth();
-    //     link();
-    // }, []);
+
+    useEffect(() => {
+      Smooth();
+      link();
+    }, []); 
 
     return (
         <>  
