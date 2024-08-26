@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 import { headerNav } from "@/constants/index";
 
@@ -15,7 +16,7 @@ const Header = () => {
             <div className='header__inner'>
                 <div className="header__logo">
                     <h1>
-                        <a href="#">portfolio<em>janghee</em></a>
+                        <Link href="/">portfolio<em>janghee</em></Link>
                         </h1>
                 </div>
                 <nav className={`header__nav ${show ? "show" : ""}`} role='navigation' aria-label='메인 메뉴'>

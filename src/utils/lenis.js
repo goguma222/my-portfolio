@@ -1,5 +1,5 @@
 const lenis = () => {
-    console.log("lenis");
+    // console.log("lenis");
 }
 
 export default lenis;
